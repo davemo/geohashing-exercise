@@ -2,6 +2,7 @@ const dowOpenUrl = 'https://query.yahooapis.com/v1/public/yql?q=select%20*%20fro
 
 Meteor.methods({
   geohash(lat, long) {
+    console.log(arguments);
     let seedHash = getSeedHash();
 
     //get whole-number parts of arguments

@@ -23,5 +23,6 @@ okgrow:promise
 http
 meteorhacks:npm
 
+ejson
 momentjs:moment
 npm-container
