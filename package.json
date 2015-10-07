@@ -4,6 +4,7 @@
   "description": "geohashing for learning node",
   "main": "index.js",
   "scripts": {
+    "start": "meteor --port 6130",
     "test": "grunt"
   },
   "author": "dave@testdouble.com",
