@@ -18,7 +18,7 @@ https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.qu
 
 via alphavantage.co (get an API key here: https://www.alphavantage.co/)
 
-curl "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=NDX&apikey=YOUR_API_KEY
+curl "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=NDX&apikey=YOUR_API_KEY"
 
 # Extra Credit
 
