@@ -12,7 +12,13 @@ Expected Output from API: `=> 200 application/json {lat: 37.857713, lon: -122.54
 
 - Dow Opening Query:
 
+via Yahoo API
+
 https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22%5ENDX%22%2C%22INDU%22)&format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=
+
+via alphavantage.co (get an API key here: https://www.alphavantage.co/)
+
+curl "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=NDX&apikey=YOUR_API_KEY
 
 # Extra Credit
 
