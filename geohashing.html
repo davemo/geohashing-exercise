@@ -1,0 +1,16 @@
+<head>
+  <title>geohashing</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{>hash}}
+</body>
+
+<template name="hash">
+    Lat: <input id="lat" value="42.101"/><br>
+    Long: <input id="long" value="-120.101"/>
+
+    <textarea id="newHash">{{ geohash }}</textarea>
+
+</template>
